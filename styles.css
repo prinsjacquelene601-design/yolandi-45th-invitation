@@ -273,6 +273,7 @@ h1.hero .accent{
   margin:0 auto 22px;
   color:#4b4234;
 }
+.stay p.pricing-note{ margin-bottom:38px; }
 .stay .list{
   font-family:'Tenor Sans', sans-serif;
   font-size:13px;
