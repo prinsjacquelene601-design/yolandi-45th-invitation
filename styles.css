@@ -87,6 +87,12 @@ body{
   color:var(--gold-deep);
   margin:0 0 26px;
 }
+.event-dates{
+  font-weight:600;
+  margin-top:38px;
+  margin-bottom:14px;
+}
+.event-celebration{ font-weight:600; }
 
 h1.hero{
   font-family:'Cormorant Garamond', serif;
