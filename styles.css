@@ -372,6 +372,11 @@ h1.hero .accent{
   margin-bottom:5px !important;
 }
 .rate-amount{ font-size:30px !important; }
+.rate-amount span{
+  font-size:21px;
+  font-weight:400;
+  color:var(--taupe);
+}
 .rate-two-night{ font-size:23px !important; margin-top:20px !important; }
 .rate-note{
   font-family:'Tenor Sans', sans-serif !important;
@@ -379,6 +384,7 @@ h1.hero .accent{
   letter-spacing:2px;
   color:var(--taupe) !important;
   margin:0 !important;
+  text-align:center;
 }
 .payment-flexible{ margin-bottom:20px !important; }
 .payment-button{ margin:4px 0 26px; }
