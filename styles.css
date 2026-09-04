@@ -357,6 +357,7 @@ h1.hero .accent{
   padding:24px 16px;
   border-top:1px solid rgba(143,122,99,0.3);
   border-bottom:1px solid rgba(143,122,99,0.3);
+  text-align:center;
 }
 .rate-label{
   font-family:'Tenor Sans', sans-serif !important;
@@ -378,6 +379,11 @@ h1.hero .accent{
   color:var(--taupe);
 }
 .rate-two-night{ font-size:23px !important; margin-top:20px !important; }
+.rate-two-night span{
+  font-size:18px;
+  font-weight:400;
+  color:var(--taupe);
+}
 .rate-note{
   font-family:'Tenor Sans', sans-serif !important;
   font-size:12px !important;
