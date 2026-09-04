@@ -352,6 +352,35 @@ h1.hero .accent{
 .stay-details li{ padding-left:6px; }
 .stay-details p:last-child{ margin-bottom:0; }
 .payment-intro strong, .payment-transfer strong{ font-weight:500; color:var(--gold-deep); }
+.payment-rate{
+  margin:34px auto 30px;
+  padding:24px 16px;
+  border-top:1px solid rgba(143,122,99,0.3);
+  border-bottom:1px solid rgba(143,122,99,0.3);
+}
+.rate-label{
+  font-family:'Tenor Sans', sans-serif !important;
+  font-size:12px !important;
+  letter-spacing:3px;
+  color:var(--taupe) !important;
+  margin-bottom:10px !important;
+}
+.rate-amount, .rate-two-night{
+  font-family:'Cormorant Garamond', serif !important;
+  font-weight:500;
+  color:var(--gold-deep) !important;
+  margin-bottom:5px !important;
+}
+.rate-amount{ font-size:30px !important; }
+.rate-two-night{ font-size:23px !important; margin-top:20px !important; }
+.rate-note{
+  font-family:'Tenor Sans', sans-serif !important;
+  font-size:12px !important;
+  letter-spacing:2px;
+  color:var(--taupe) !important;
+  margin:0 !important;
+}
+.payment-flexible{ margin-bottom:20px !important; }
 .payment-button{ margin:4px 0 26px; }
 .payment-transfer{ margin-top:0 !important; }
 .bank-details{
