@@ -238,6 +238,38 @@ h1.hero .accent{
   color:var(--gold-deep);
 }
 
+.dress-code{
+  max-width:460px;
+  margin:58px auto 0;
+  padding:28px 20px;
+  border-top:1px solid rgba(143,122,99,0.3);
+  border-bottom:1px solid rgba(143,122,99,0.3);
+  text-align:center;
+}
+.dress-code .kicker{
+  margin:0 0 12px;
+  font-weight:600;
+}
+.dress-code-style{
+  margin:0 0 10px;
+  font-family:'Cormorant Garamond', serif;
+  font-style:italic;
+  font-size:28px;
+  color:var(--gold-deep);
+}
+.dress-code-style span{
+  font-style:normal;
+  color:var(--sand);
+  padding:0 7px;
+}
+.dress-code > p:last-child{
+  margin:0;
+  font-family:'Cormorant Garamond', serif;
+  font-size:17px;
+  line-height:1.5;
+  color:#5b5140;
+}
+
 /* day-visitor notice */
 .notice{
   margin:64px auto 0;
